@@ -1,0 +1,5 @@
+require(knitr) 
+require(markdown) 
+setwd("C:/GettingNCleaningData/week_3/Project")
+knit("run_analysis.Rmd", encoding="ISO8859-1") 
+markdownToHTML("run_analysis.md", "run_analysis.html") 
